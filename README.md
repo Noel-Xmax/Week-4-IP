@@ -21,7 +21,8 @@ The page is a directory page with detail on the types of pizzas offered, the siz
 * Javascript
 * Jquerry
 ## Support and contact details
-Please in case of technical hickups do not hesitate to reach me on xmaxnoel@gmail.com and or our Tel is: 0721 820 820.### License
+Please in case of technical hickups do not hesitate to reach me on xmaxnoel@gmail.com and or our Tel is: 0721 820 820.
+### License
 
 MIT License
 Copyright (c) {2021} **{Noel Injaga}**
