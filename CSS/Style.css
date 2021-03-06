@@ -1,0 +1,116 @@
+.Card-Intro{
+  background: url(Assets/Pizzas.jpg);
+  color: #f4b6c2;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-size: 12px;
+  background-color: gray;
+  margin-top: 14%;
+  margin: 5%;
+  background-size: cover;
+}
+#mantra{
+  color:whitesmoke;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 3%;
+  padding: 2%;
+}
+/* *{
+  text-align: center;
+} */
+#logo{
+  float: left;
+  width: 200px;
+  height: 150px;
+  background-color: antiquewhite;
+  border-radius: 12%;
+  margin-left: 7%;
+  margin-top: 1%;
+  padding: 1%;
+}
+#address{
+  align-content: center;
+  max: width 350px;;
+}
+#pname{
+  font-size: xxx-large;
+  font-weight: 600;
+  font-variant:unset;
+}
+#order{
+ color:  #990f02;
+ margin: 2%;
+}
+.dDown{
+  display: inline-flex;
+  list-style: none;
+  color: antiquewhite;
+}
+.item1{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+.item2{
+  color: #990f02;
+}
+.item3{
+  color:black;
+}
+.card-Menu{
+  background-color: burlywood;
+}
+.card-Menu ul li a{
+  text-decoration: none;
+  color:  #990f02;
+}
+.item,.card-Menu ul li:hover{
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+.vtypes{
+  display: none;
+}
+.row1 ::after{
+  content: "";
+  display: table;
+  clear: both;
+  display: flex;
+  
+}
+.row2{
+  content: "";
+  display: table;
+  clear: both;
+  display: flex;
+} 
+.col-md-4{
+  position:relative;
+  align-items: center;
+  margin: 2%;
+  width: 33.33%;
+  padding: 5%;
+  float: left;
+  text-align: center;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin: 7%;
+}
+.sizes{
+  text-align: center;
+  padding: 12%;
+}
+*{
+  box-sizing: border-box;
+  margin: 2%;
+  align-content: center;
+  padding: 2%;
+}
+#tel{
+  color: gray;
+  text-align: center;
+}
+
