@@ -99,7 +99,7 @@
   max-height: fit-content;
   margin: 7%;
 }
-.sizes{
+.card-sizes{
   text-align: center;
   padding: 12%;
 }
@@ -112,5 +112,8 @@
 #tel{
   color: gray;
   text-align: center;
+}
+.card-prices{
+  padding: 1%;
 }
 

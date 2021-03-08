@@ -6,118 +6,391 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script><link  rel="styleshee" href="CSS/style.css" type="text/css">
-    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/Style1.css">
+    <title><em>Leo Nimekula-ko Pizza</em></title>
   </head>
-    <title>Leo Nimekula-ko Pizza</title>
   <body>
-      <div class="Card-Intro">
-        <img id="logo" src="Assets/Logo.PNG" alt="logo">
-        <br>
-        <br>
-        <br>
-        <h1 id="pname">Leo Nimekula-ko Pizza</h1><br>
-        <p2 id="mantra">We are here to serve you, cause we get it:<br>
-        There's no greater love, than the love of Pizza</em></p3>
-        <form id="address">
-          <h2 id="order" >Order Now!!</h2>
-          <input type="text" id="address" placeholder="Your Location"size="100px">
-            <button type="submit" id="address"> Start</button>
-          </div>
-        </form>
-      </div>
-      <div  class=" card-Menu">
-        <div class="dDown">
-          <div class="item1"><h2>Classic Burgers</h2>
-            <div class="row1">
-              <div class="col-md-4">
-                <div id="Ckn">
-                  <p4>Chicken Stuck</p4>
-                  <img id ="img" src="Assets/Pizzas.jpg" alt="Chk" width="400px">
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div id="Smt">
-                  <p4>Something Meaty</p4>
-                  <img id="img" src="Assets/Pizza/VeganM.jpg" alt="meat" width="400px">
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div id="bbq">
-                  <p4>Chicken BBQ</p4>
-                  <img id="img" src="Assets/Pizza/BBQC.jpg" alt="bq" width="400px">
-                </div>
-              </div>
-            </div>
-            <div class="row2">
-              <div class="col-md-4">
-                <div id="Vegy">
-                  <p4>Vegan Feast</p4>
-                  <img id="img" src="Assets/Pizza/Vegan.jpg" alt="meat" width="400px">
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div id="Mar">
-                  <p4>Margharitta</p4>
-                  <img id="img" src="Assets/Pizza/Margh.jpg" alt="meat" width="400px">
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div id="Haw">
-                  <hp>Hawaiian</p4>
-                  <img id="img" src="Assets/Pizza/Hawai.jpg" alt="meat" width="400px">
-                </div>
-              </div>
-            </div> 
-          <div class="card-toppings">
-            <div class="item2" ><h2>Toppings</h2>
-              <ul>
-                <li  id="t1">Bacon</li>
-                <li  id="t2" >Macon</li>
-                <li id="t3">Pinepples</li>
-                <li id="t4">Double-stuck</li>
-                <li id="t5"> Tripple-stuck</li>
-                <li id="t6">Gorgonzola and Mushroom</li>
-                <li id="t7"> Black-Olives</li>
-              </ul>
-            </div>
-          <div>
-            <div class="item3">
-              <a href="#" class="container">Sides</a>
-              <div class="row">
-                <div id="col-md-3" id="drink" name="Soda">
-                  <img src="Assets/Pizza/soda.jpg" alt="soda" width="400px" height="350px">
-                  <label>Soda @ Ksh.200.00</label><br>
-                </div>
-                <div class="col-md-3" id="salad" name="Garden salad">
-                  <img src="Assets/Pizza/salad.jpg" alt="sald" width="400px" height="350px">
-                  <label>Salad@ Ksh. 450.00</label><br>
-                </div>
-                <div class="col-md-3" id="wedges" name="Sweet-Potatoes wedges">
-                  <img src="Assets/Pizza/Potatoes.jpg" alt="wedge" width="400px" height="350px">
-                  <label>wedges @ Ksh. 450.00</label><br>
-                </div>
-                <div class="col-md-3" id="wings" name="Chicken Wings">
-                  <img src="Assets/Pizza/Wings.jpg" alt="wings" width="400x" height="350px">
-                  <label>Wings @ Ksh. 450.00</label><br>
-                </div>
-              </div>
-            </div>
+    <div class="Card-Intro">
+      <img id="logo" src="Assets/Logo.PNG" alt="logo">
+      <br>
+      <br>
+      <br>
+      <h1 id="pname">Tule Pizza</h1><br>
+      <p2 id="mantra"><em>We are here to serve you, cause we get it:There's no greater love, than the love of Pizza</em></p3>
+      <form id="address">
+        <p>Prefer Delivery!?!</p>
+        <h2 id="order" >Order Now!!</h2>
+        <input type="text" id="address" placeholder="Your Location"size="80px">
+          <button type="button" id="address1"> Start</button>
+        </div>
+      </form>
+    </div>
+    <div class="containers">
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li id="active" class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item" id="men"><a href="#">Menu</a></li>
+          <li class="nav-item" id="sz"><a href="#">Sizes</a></li>
+          <li class="nav-item" id="prz"><a href="#">Prices</a></li>
+          <li class="nav-item"><a href="#">Order-Cart</a></li>
+          <li class="nav-item"><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="card-menu">
+      <div class="item1"><h2>Classic Burgers</h2>
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizzas.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Something Meaty</label>
           </div>
         </div>
-        <div class="sizes">
-          <a href="#" class="bsizes">Sizes</a><br>
-          <input type="checkbox" class="size" name="mega"> &nbsp; Mega @ Ksh. 1,200.00
-          <input type="checkbox" class="size" name="large"> &nbsp; Large @ Ksh.1,000.00
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizza/VeganM.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Chicken BBQ</label>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizza/Vegan.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Chicken BBQ</label>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizza/BBQC.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Vegan Feast</label>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizza/Margh.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Margharitta</label>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-4">
+            <img id ="img" src="Assets/Pizza/Hawai.jpg" alt="Chk" width="300px" height="200px">
+            <label class="descr">Hawaiian</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="card-crusts">
+      <div class="item2" ><h2>Crusts</h2>
+        <ul class="crst">
+          <input type="checkbox" id="c1" name="crsp"> &nbsp; Crispy
+          <input type="checkbox" id="c2" name="stf"> &nbsp; Stuffed
+          <input type="checkbox" id="c3" name="glt"> &nbsp; Glutten Free
+        </ul>
+      </div>
+    </div>
+    <div class="card-toppings">
+      <div class="item3" ><h2>Toppings</h2>
+        <ul>
+          <li id="t1">Bacon</li>
+          <li id="t2" >Macon</li>
+          <li id="t3">Pinepples</li>
+          <li id="t4">Double-stuck</li>
+          <li id="t5"> Tripple-stuck</li>
+          <li id="t6">Gorgonzola and Mushroom</li>
+          <li id="t7"> Black-Olives</li>
+        </ul>
+      </div>
+      <div class="item4">
+        <div class="row">
+          <h2 class="side">Sides</h2>
+          <div class="col-md-3" id="drink" name="Soda">
+            <img src="Assets/Pizza/soda.jpg" alt="soda" width="200px" height="150px">
+            <label>Soda @ Ksh. 150.00 </label>
+          </div>
+          <div class="col-md-3" id="salad" name="Garden salad">
+            <img src="Assets/Pizza/salad.jpg" alt="sald" width="200px" height="150px">
+            <label>Salad @ Ksh. 450.00</label>
+          </div>
+          <div class="col-md-3" id="wedges" name="Sweet-Potatoes wedges">
+            <img src="Assets/Pizza/Potatoes.jpg" alt="wedge" width="200px" height="150px">
+            <label>Wedges @ Ksh. 350.00</label>
+          </div>
+          <div class="col-md-3" id="wings" name="Chicken Wings">
+            <img src="Assets/Pizza/Wings.jpg" alt="wings" width="200x" height="150px">
+            <label>6 pieces of Wings @ Ksh.550.00</label>
+          </div>
+        </div>
+      </div>
+      <div class="card-sizes">
+        <div class="bsizes"><h2>Sizes</h2>
+          <input type="checkbox" class="size" name="mega"> &nbsp; Mega @ Ksh.1,200.00
+          <input type="checkbox" class="size" name="large"> &nbsp; Large @ Ksh. 1,000.00
           <input type="checkbox" class="size" name="medium"> &nbsp; Medium @ Ksh. 800.00
           <input type="checkbox" class="size" name="small"> &nbsp; Small @ Ksh. 600.00
-          <input type="checkbox" class="size" name="pi"> &nbsp; Pie @ Ksh. 200.00
-        </div><br>
-        <form id="cart">
+          <input type="checkbox" class="size" name="pi"> &nbsp; Pie @ Ksh.200.00
+        </div>
+    </div><br>
+    <div class="card-prices">
+      <table>
+        <h2 id="p">Price List</h2>
+        <tr>
+          <th>Sizes</th>
+          <th>Type</th>
+          <th>Pie</th>
+          <th>Small</th>
+          <th>Medium</th>
+          <th>Large</th>
+          <th>Mega</th>
+        </tr>
+        <tr>
+          <td>Crusts</td>
+          <td>Crispy</td>
+          <td>N/A</td>
+          <td>Ksh. 50.00</td>
+          <td>Ksh. 100.00</td>
+          <td>Ksh. 150.00</td>
+          <td>Ksh. 200.00</td>
+        </tr>
+        <tr>
+          <td>Crusts</td>
+          <td>Stuffed</td>
+          <td>N/A</td>
+          <td>Ksh. 100.00</td>
+          <td>Ksh. 150.00</td>
+          <td>Ksh. 200.00</td>
+          <td>Ksh. 250.00</td>
+        </tr>
+        <tr>
+          <td>Crusts</td>
+          <td>Glutten Free</td>
+          <td>N/A</td>
+          <td>Ksh. 150.00</td>
+          <td>Ksh. 200.00</td>
+          <td>Ksh. 250.00</td>
+          <td>Ksh. 300.00</td>
+        </tr>
+        <tr>
+          <td>Toppings</td>
+          <td>Bacon</td>
+          <td>N/A</td>
+          <td>Ksh. 50.00</td>
+          <td>Ksh. 100.00</td>
+          <td>Ksh. 150.00</td>
+          <td>Ksh. 200.00</td>
+        </tr>
+        <tr>
+          <td>Toppings</td>
+          <td>Macon</td>
+          <td>N/A</td>
+          <td>Ksh. 50.00</td>
+          <td>Ksh. 100.00</td>
+          <td>Ksh. 150.00</td>
+          <td>Ksh. 200.00</td>
+        </tr>
+        <tr>
+          <td>Toppings</td>
+          <td>Pineapples</td>
+          <td>N/A</td>
+          <td>Ksh. 00.00</td>
+          <td>Ksh. 50.00</td>
+          <td>Ksh. 100.00</td>
+          <td>Ksh. 150.00</td>
+        </tr>
+        <tr>
+          <td>Toppings</td>
+          <td>Mushroom</td>
+          <td>N/A</td>
+          <td>Ksh. 00.00</td>
+          <td>Ksh. 50.00</td>
+          <td>Ksh. 100.00</td>
+          <td>Ksh. 150.00</td>
+        </tr>
+        <tr>
+          <td>Toppings</td>
+          <td>Black Olives</td>
+          <td>N/A</td>
+          <td>Ksh. 00.00</td>
+          <td>Ksh. 50.00</td>
+          <td>Ksh. 100.00</td>
+          <td>Ksh. 150.00</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <form id="cart">
+    <h2>Cart</h2>
+    <div>
+      <table1 id="options">
+        <tr1 id="cz">
+          <th1 id="dz">Burger</th>
+          <td1 id="tp">
+            <select name="burgers" id="pick">
+              <option value="Chicken Stuck">Chicken Stuck</option>
+              <option value="Something Meaty">Something Meaty</option>
+              <option value="Chicken BBQ">Chicken BBQ</option>
+              <option value="Vegan Feast">Vegan Feast</option>
+              <option value="Margharitta">Margharitta</option>
+              <option value="Hawaiian">Hawaiian</option>
+            </select>
+          </td>
+        </tr>
+        <th1 id="dz">Size</th>
+          <td1 id="tp">
+            <select name="sizes" id="picks">
+              <option value="M">Mega </option>
+              <option value="L">large </option>
+              <option value="md">Medium </option>
+              <option value="Small">Small</option>
+              <option value="Pie">Pie</option>
+            </select>
+          </td>
+          <th id="dz">Topping</th>
+          <td id="tp"> 
+            <select name="toppings" id="pick">
+              <option value="none">None</option>
+              <option value="bacon">Bacon</option>
+              <option value="macon">Macon</option>
+              <option value="pineapples">Pineapples</option>
+              <option value="dcrusts">Double-stuck</option>
+              <option value="tcrusts">Tripple-stuck</option>
+              <option value="gorg"> Gorgonzola and Mushroom</option>
+              <option value="olives">Black-Olives</option>
+            </select>
+          </td>
+          <th1>Sides</th>
+          <td1 id="tp">
+            <select name="toppings" id="pick">
+              <option value="none">None</option>
+              <option value="drink">Soda-500ml</option>
+              <option value="salad">Graden Salad</option>
+              <option value="wedges">Potatoe Wedge</option>
+              <option value="wings">8-pieces Wings</option>
+            </select>
+          </td>
+        </tr>
+        <th id="dz">Quantity</th>
+        <input id="qty" type="number" placeholder="qty" min="1" max="50">
+        <button><i class="fa fa-minus-square-o" aria-hidden="true"></i>
+        <span>Remove</span>
+        </button>
+      <tr>
+      <button>Subtotal</button><br>
+      <div>
+        <table1 id="options">
+          <tr1 id="cz">
+            <th1 id="dz">Burger</th>
+            <td1 id="tp">
+              <select name="burgers" id="pick">
+                <option value="Chicken Stuck">Chicken Stuck</option>
+                <option value="Something Meaty">Something Meaty</option>
+                <option value="Chicken BBQ">Chicken BBQ</option>
+                <option value="Vegan Feast">Vegan Feast</option>
+                <option value="Margharitta">Margharitta</option>
+                <option value="Hawaiian">Hawaiian</option>
+              </select>
+            </td>
+          </tr>
+          <th1 id="dz">Size</th>
+            <td1 id="tp">
+              <select name="sizes" id="picks">
+                <option value="M">Mega </option>
+                <option value="L">large </option>
+                <option value="md">Medium </option>
+                <option value="Small">Small</option>
+                <option value="Pie">Pie</option>
+              </select>
+            </td>
+            <th id="dz">Topping</th>
+            <td id="tp"> 
+              <select name="toppings" id="pick">
+                <option value="none">None</option>
+                <option value="bacon">Bacon</option>
+                <option value="macon">Macon</option>
+                <option value="pineapples">Pineapples</option>
+                <option value="dcrusts">Double-stuck</option>
+                <option value="tcrusts">Tripple-stuck</option>
+                <option value="gorg"> Gorgonzola and Mushroom</option>
+                <option value="olives">Black-Olives</option>
+              </select>
+            </td>
+            <th1>Sides</th>
+            <td1 id="tp">
+              <select name="toppings" id="pick">
+                <option value="none">None</option>
+                <option value="drink">Soda-500ml</option>
+                <option value="salad">Graden Salad</option>
+                <option value="wedges">Potatoe Wedge</option>
+                <option value="wings">8-pieces Wings</option>
+              </select>
+            </td>
+          </tr>
+          <th id="dz">Quantity</th>
+          <input id="qty" type="number" placeholder="qty" min="1" max="50">
+          <button><i class="fa fa-minus-square-o" aria-hidden="true"></i>
+          <span>Remove</span>
+          </button>
+        <tr>
+        <button>Subtotal</button><br>
+        <div>
+          <table1 id="options">
+            <tr1 id="cz">
+              <th1 id="dz">Burger</th>
+              <td1 id="tp">
+                <select name="burgers" id="pick">
+                  <option value="Chicken Stuck">Chicken Stuck</option>
+                  <option value="Something Meaty">Something Meaty</option>
+                  <option value="Chicken BBQ">Chicken BBQ</option>
+                  <option value="Vegan Feast">Vegan Feast</option>
+                  <option value="Margharitta">Margharitta</option>
+                  <option value="Hawaiian">Hawaiian</option>
+                </select>
+              </td>
+            </tr>
+            <th1 id="dz">Size</th>
+              <td1 id="tp">
+                <select name="sizes" id="picks">
+                  <option value="M">Mega </option>
+                  <option value="L">large </option>
+                  <option value="md">Medium </option>
+                  <option value="Small">Small</option>
+                  <option value="Pie">Pie</option>
+                </select>
+              </td>
+              <th id="dz">Topping</th>
+              <td id="tp"> 
+                <select name="toppings" id="pick">
+                  <option value="none">None</option>
+                  <option value="bacon">Bacon</option>
+                  <option value="macon">Macon</option>
+                  <option value="pineapples">Pineapples</option>
+                  <option value="dcrusts">Double-stuck</option>
+                  <option value="tcrusts">Tripple-stuck</option>
+                  <option value="gorg"> Gorgonzola and Mushroom</option>
+                  <option value="olives">Black-Olives</option>
+                </select>
+              </td>
+              <th1>Sides</th>
+              <td1 id="tp">
+                <select name="toppings" id="pick">
+                  <option value="none">None</option>
+                  <option value="drink">Soda-500ml</option>
+                  <option value="salad">Graden Salad</option>
+                  <option value="wedges">Potatoe Wedge</option>
+                  <option value="wings">8-pieces Wings</option>
+                </select>
+              </td>
+            </tr>
+            <th id="dz">Quantity</th>
+            <input id="qty" type="number" placeholder="qty" min="1" max="50">
+            <button><i class="fa fa-minus-square-o" aria-hidden="true"></i>
+            <span>Remove</span>
+            </button>
+          <tr>
+          <button>Subtotal</button><br>
           <div>
-            <table>
-              <tr>
-                <th>Burger</th>
-                <td>
+            <table1 id="options">
+              <tr1 id="cz">
+                <th1 id="dz">Burger</th>
+                <td1 id="tp">
                   <select name="burgers" id="pick">
                     <option value="Chicken Stuck">Chicken Stuck</option>
                     <option value="Something Meaty">Something Meaty</option>
@@ -128,8 +401,8 @@
                   </select>
                 </td>
               </tr>
-              <th>Size</th>
-                <td>
+              <th1 id="dz">Size</th>
+                <td1 id="tp">
                   <select name="sizes" id="picks">
                     <option value="M">Mega </option>
                     <option value="L">large </option>
@@ -138,8 +411,8 @@
                     <option value="Pie">Pie</option>
                   </select>
                 </td>
-                <th>Topping</th>
-                <td>
+                <th id="dz">Topping</th>
+                <td id="tp"> 
                   <select name="toppings" id="pick">
                     <option value="none">None</option>
                     <option value="bacon">Bacon</option>
@@ -151,8 +424,8 @@
                     <option value="olives">Black-Olives</option>
                   </select>
                 </td>
-                <th>Sides</th>
-                <td>
+                <th1>Sides</th>
+                <td1 id="tp">
                   <select name="toppings" id="pick">
                     <option value="none">None</option>
                     <option value="drink">Soda-500ml</option>
@@ -161,20 +434,81 @@
                     <option value="wings">8-pieces Wings</option>
                   </select>
                 </td>
-                <th>Quantity
-                  <input type="number" placeholder="Quantity" max="50" min="1">
-                </th>
               </tr>
+              <th id="dz">Quantity</th>
+              <input id="qty" type="number" placeholder="qty" min="1" max="50">
+              <button><i class="fa fa-minus-square-o" aria-hidden="true"></i>
+              <span>Remove</span>
+              </button>
             <tr>
-            <label>Subtotal</label><br>
+            <button>Subtotal</button><br>
             <div>
-              <div class="item1"><a href="#">Contact Us</a></div>
-              <p id="tel">Our Telephone +254 711 099 099</p>
-            </div>                 
-          </div>
-        </form>
-    </body>
+              <table1 id="options">
+                <tr1 id="cz">
+                  <th1 id="dz">Burger</th>
+                  <td1 id="tp">
+                    <select name="burgers" id="pick">
+                      <option value="Chicken Stuck">Chicken Stuck</option>
+                      <option value="Something Meaty">Something Meaty</option>
+                      <option value="Chicken BBQ">Chicken BBQ</option>
+                      <option value="Vegan Feast">Vegan Feast</option>
+                      <option value="Margharitta">Margharitta</option>
+                      <option value="Hawaiian">Hawaiian</option>
+                    </select>
+                  </td>
+                </tr>
+                <th1 id="dz">Size</th>
+                  <td1 id="tp">
+                    <select name="sizes" id="picks">
+                      <option value="M">Mega </option>
+                      <option value="L">large </option>
+                      <option value="md">Medium </option>
+                      <option value="Small">Small</option>
+                      <option value="Pie">Pie</option>
+                    </select>
+                  </td>
+                  <th id="dz">Topping</th>
+                  <td id="tp"> 
+                    <select name="toppings" id="pick">
+                      <option value="none">None</option>
+                      <option value="bacon">Bacon</option>
+                      <option value="macon">Macon</option>
+                      <option value="pineapples">Pineapples</option>
+                      <option value="dcrusts">Double-stuck</option>
+                      <option value="tcrusts">Tripple-stuck</option>
+                      <option value="gorg"> Gorgonzola and Mushroom</option>
+                      <option value="olives">Black-Olives</option>
+                    </select>
+                  </td>
+                  <th1>Sides</th>
+                  <td1 id="tp">
+                    <select name="toppings" id="pick">
+                      <option value="none">None</option>
+                      <option value="drink">Soda-500ml</option>
+                      <option value="salad">Graden Salad</option>
+                      <option value="wedges">Potatoe Wedge</option>
+                      <option value="wings">8-pieces Wings</option>
+                    </select>
+                  </td>
+                </tr>
+                <th id="dz">Quantity</th>
+                <input id="qty" type="number" placeholder="qty" min="1" max="50">
+                <button><i class="fa fa-minus-square-o" aria-hidden="true"></i>
+                <span>Remove</span>
+                </button>
+              <tr>
+              <button>Subtotal</button><br>
+              <div>
+                          
+
+      <div class="item6">Contact Us<div>
+        <p id="tel">Our Telephone is: +254 711 099 099</p>
+      </div>                 
+    </div>
+  </form>
   <footer>
+    <img src="Assets/facebook3.png">
+    <img src="Assets/twitter1.png">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> 
    <script src="JS/script.js"></script>
   </footer>
