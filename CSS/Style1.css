@@ -118,11 +118,10 @@ text-emphasis-color: center;
   box-sizing: border-box;
   padding-left: 2%;
 }
-#img{
+/* #img{
   /* width: 200px;
   height: 220px; */
 
-}
 .descr{
   padding: 15px;
   text-align: center;

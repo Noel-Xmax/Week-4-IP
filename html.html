@@ -81,9 +81,9 @@
     <div class="card-crusts">
       <div class="item2" ><h2>Crusts</h2>
         <ul class="crst">
-          <input type="checkbox" id="c1" name="crsp"> &nbsp; Crispy
-          <input type="checkbox" id="c2" name="stf"> &nbsp; Stuffed
-          <input type="checkbox" id="c3" name="glt"> &nbsp; Glutten Free
+          <input type="checkbox" id="c1" name="crust"> &nbsp; Crispy
+          <input type="checkbox" id="c2" name="crust"> &nbsp; Stuffed
+          <input type="checkbox" id="c3" name="crust"> &nbsp; Glutten Free
         </ul>
       </div>
     </div>
@@ -519,7 +519,7 @@
               <tr1 id="cz">
                 <th1 id="dz">Burger</th>
               <td1 id="tp">
-                <select name="burgers" id="pick" class="myselect">
+                <select name="burgers" id="pickb" class="myselect">
                   <option value="Chicken Stuck">Chicken Stuck</option>
                   <option value="Something Meaty">Something Meaty</option>
                   <option value="Chicken BBQ">Chicken BBQ</option>
@@ -531,7 +531,7 @@
                 </tr>
                 <th1 id="dz">Size</th>
                   <td1 id="tp">
-                    <select name="sizes" id="picks" class="myselect">
+                    <select name="sizes" id="picksS" class="myselect">
                       <option value="Mega">Mega </option>
                       <option value="Large">large </option>
                       <option value="Medium">Medium </option>
@@ -541,7 +541,7 @@
                   </td>
                   <th id="dz">Topping</th>
                   <td id="tp"> 
-                    <select name="toppings" id="pick" class="myselect">
+                    <select name="toppings" id="pickt" class="myselect">
                       <option value="none">None</option>
                       <option value="bacon">Bacon</option>
                       <option value="macon">Macon</option>
@@ -554,7 +554,7 @@
                   </td>
                   <th1>Sides</th>
                   <td1 id="tp">
-                    <select name="toppings" id="pick" class="myselect">
+                    <select name="sides" id="tpick" class="myselect">
                       <option value="none">None</option>
                       <option value="drink">Soda-500ml</option>
                       <option value="salad">Graden Salad</option>
@@ -572,10 +572,22 @@
                   <span>Add</span>
                 </button>
               <tr>
-              <button id="btn1">Subtotal</button><br>
+              <button id="btn1a">Subtotal</button><br>
             </tr>
           </td1>
         </th1>
+        <div id="show-Bill">
+            <div class="card panel-default">
+              <div class="card-body">
+                <p><strong>You final bill is...</strong></p>
+                <p>Burger: <span id="displayBurger"></span></p>
+                <p>Toppings: <span id="displayToppings"></span></p>
+                <p>Size: <span id="displaySides"></span></p>
+                <p>Size: <span id="displaySize"></span></p>
+                <p>Crust: <span id="displayCrust"></span></p>
+                <p>Total cost: <span id="displayTotalCost"></span></p>
+              </div>
+              <div class="panel-footer">Thank You for visiting US !!!</div>
         <div>               
       <div class="item6">Contact Us<div>
         <p id="tel">Our Telephone is: +254 711 099 099</p>
