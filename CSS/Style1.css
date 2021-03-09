@@ -2,11 +2,11 @@
   padding: 0;
   margin: 1%;
   box-sizing: border-box;
-  background-image: url("Assets/Background.jpg");
+  background-image: url("..Assets/Background.jpg");
 }
 body{
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-image: url(Assets/Pizzas.jgp);
+  background-image: url("..Assets/Background-1.jpg");
   background-size: cover;
   background-position: center;
   
